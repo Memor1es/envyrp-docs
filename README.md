@@ -1,4 +1,4 @@
-NotPixel Documentation
+EnvyRP Documentation
 ===================
 
 Official source is -
@@ -25,7 +25,7 @@ wget --spider -o ./wget.log -e robots=off -w 1 -r -p http://localhost:1313
 
 More info on that [here][check-dead-links].
 
-[docs]: https://docs.fivem.net
+[docs]: https://docs.envyrp.net
 [gohugo]: https://gohugo.io
 [wget]: http://www.gnu.org/software/wget/
 [check-dead-links]: http://n390.com/blog/find-broken-links-using-wget
