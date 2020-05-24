@@ -8,7 +8,7 @@ There is a certain procedure which you must follow before contacting a staff mem
 
 Please do your best to record the situation and press F10 to obtain the player ID and name.
 
-Once you have gathered enough evidence to create a report, please create a ticket in the [discord](https://discord.notpixel.com).
+Once you have gathered enough evidence to create a report, please create a ticket in the [discord](https://discord.envyrp.net).
 A staff member will then review the situation and provide a reply.
 
 Under urgent circumstances, please directly message a staff member using the chain of command.

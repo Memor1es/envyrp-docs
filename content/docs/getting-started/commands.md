@@ -3,7 +3,7 @@ title: Common Commands
 weight: 230
 ---
 
-Before joining NotPixel, we recommend you get used to the commands and [hotkeys](docs/getting-started/hotkeys).
+Before joining EnvyRP, we recommend you get used to the commands and [hotkeys](docs/getting-started/hotkeys).
 You are currently viewing the commands.
 
 We try to cover all commands in the following table.

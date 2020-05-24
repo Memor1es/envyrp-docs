@@ -44,16 +44,16 @@ Installing TokoVOIP
 2. Install the downloaded plugin, activate it and restart Teamspeak
 3. If you have installed it correctly, you should see a “plugins” tab on the top and you should now see “TokoVOIP”
 
-Connecting to NotPixel
+Connecting to EnvyRP
 ----------
 
 1. Open TeamSpeak 3
-2. Connect to our teamspeak server using the IP: ts.notpixel.com
-3. Launch FiveM and direct connect to fivem.notpixel.com
+2. Connect to our teamspeak server using the IP: ts.envyrp.net
+3. Launch FiveM and direct connect to fivem.envyrp.net
 4. Once you have connected to the server, you will be automatically moved to the main room
 
 [fivem]: https://fivem.net
-[home]: https://notpixel.com/
-[forum]: https://forum.notpixel.com/
-[discord]: https://discord.notpixel.com
+[home]: https://envyrp.net/
+[forum]: https://forum.envyrp.net/
+[discord]: https://discord.envyrp.net
 [tokovoip_ts3]: https://github.com/Itokoyamato/TokoVOIP_TS3/releases

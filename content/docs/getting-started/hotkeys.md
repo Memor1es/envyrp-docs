@@ -3,9 +3,8 @@ title: Common Hotkeys
 weight: 220
 ---
 
-Before joining NotPixel, we recommend you get used to the [commands](docs/getting-started/commands) and hotkeys.
+Before joining EnvyRP, we recommend you get used to the [commands](docs/getting-started/commands) and hotkeys.
 You are currently viewing the hotkeys.
-
 
 We try to cover all hotkeys in the following table.
 

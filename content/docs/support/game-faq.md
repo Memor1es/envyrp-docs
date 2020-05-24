@@ -19,12 +19,12 @@ To clear your cache, please do the following:
 - Right click your FiveM Shortcut and click `open file location`
 - Double Click **FiveM Application Data** and open the Cache folder.
 - Delete all files in there, **excluding** the `game` folder.
-- Launch FiveM and connect to `notpixel.com`.
+- Launch FiveM and connect to `envyrp.net`.
 
 Do we have an AOP?
 -------------------------
 
-At NotPixel, we feel as though an AOP restricts Roleplay. 
+At EnvyRP, we feel as though an AOP restricts Roleplay. 
 Therefore, we do not have a set AOP, and RP can be anywhere on the map.
 
 Why did I randomly die and what can I do about it?

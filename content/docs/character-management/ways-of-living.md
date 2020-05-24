@@ -3,7 +3,7 @@ title: Ways Of Living
 weight: 240
 ---
 
-At NotPixel, we offer various ways of living in the wonderful city of Los Santos.
+At EnvyRP, we offer various ways of living in the wonderful city of Los Santos.
 You can opt-in to purchasing a motel as your starter place, or you can go all out and purchase a house.
 
 ## Motels
@@ -21,7 +21,7 @@ You will get access to a stash and wardrobe, where you can access your clothing 
 
 ## Housing
 
-One of the greatest things that NotPixel offers is housing. We have officially taken it to the next level.
+One of the greatest things that EnvyRP offers is housing. We have officially taken it to the next level.
 
 You can purchase a house from a realtor, able to find in-game through Yellow Pages, Twitter, Legion Square,
 word-of-mouth. The Realtor will ask you a series of questions and you can come up with a deal.

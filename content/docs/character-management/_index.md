@@ -13,6 +13,6 @@ Before you continue
 -------------
 
 Please setup your character before continuing.
-You can do this by joining `notpixel.com`, click create character and go through the setup process.
+You can do this by joining `envyrp.net`, click create character and go through the setup process.
 
 You should then be able to continue with everything else.

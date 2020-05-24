@@ -24,7 +24,7 @@ get in touch with us on the [Discord][discord].
         <li><a href="/docs/play-envyrp/installing-fivem">Installing FiveM</a></li>
         <li><a href="/docs/play-envyrp/connect">Connecting to EnvyRP</a></li>
         <li><a href="/docs/play-envyrp">Play EnvyRP</a></li>
-        <li><a href="https://rules.envyrp.com">Reading the rules</a></li>
+        <li><a href="https://rules.envyrp.net">Reading the rules</a></li>
         <li><a href="/docs/play-envyrp/contact-staff">Contacting Staff</a></li>
       </ul>
     </div>
@@ -120,6 +120,6 @@ get in touch with us on the [Discord][discord].
   </div>
 </div>
 
-[home]: https://envyrp.com/
-[forum]: https://forum.envyrp.com/
-[discord]: https://discord.envyrp.com
+[home]: https://envyrp.net/
+[forum]: https://forum.envyrp.net/
+[discord]: https://discord.envyrp.net
