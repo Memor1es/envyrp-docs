@@ -1,0 +1,74 @@
+languageCode = "en-us"
+title = "NotPixel Documentation"
+theme = "docsy"
+contentDir = "content"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+baseURL = "/"
+# Useful when translating.
+enableMissingTranslationPlaceholders = true
+
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+# Highlighting config
+pygmentsCodeFences = true
+pygmentsUseClasses = false
+# Use the new Chroma Go highlighter in Hugo.
+pygmentsUseClassic = false
+#pygmentsOptions = "linenos=table"
+# See https://help.farbox.com/pygments.html
+pygmentsStyle = "tango"
+
+disablePathToLower = true
+enableGitInfo = true
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[params]
+disableHomeIcon = true
+editURL = "https://github.com/NotPixel/notpixel-docs/edit/master/content/"
+github_repo = "https://github.com/NotPixel/notpixel-docs"
+github_project_repo = "https://github.com/NotPixel"
+offlineSearch = true
+
+[blackfriday]
+hrefTargetBlank = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[[menu.main]]
+name = "Forum"
+url = "https://forum.notpixel.com/"
+weight = 20
+
+[[menu.main]]
+name = "Discord"
+url = "https://discord.notpixel.com"
+weight = 30
+
+[[menu.main]]
+name = "Rules"
+url = "https://rules.notpixel.com/"
+weight = 40
+
+[[menu.main]]
+name = "TokoVOIP"
+url = "https://tokovoip.notpixel.com/"
+weight = 50
+
+[[menu.main]]
+name = "Terms of Service"
+url = "https://notpixel.com/terms"
+weight = 60
+
+[[menu.main]]
+name = "<svg style='height: 16px; width: 16px;'><use xlink:href='#patreon-logo'></use></svg>"
+url = "https://discord.notpixel.com"
+weight = 70
+
+[params.ui]
+sidebar_menu_compact = true

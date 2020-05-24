@@ -1,0 +1,41 @@
+<!-- override, added | safeHTML -->
+<svg style="display: none;">
+<symbol id="patreon-logo" viewBox="0 0 32 32">
+    <path fill="#fff" d="M16 0c-8.837 0-16 7.163-16 16v15.985h15.33c0.222 0.009 0.446 0.015 0.67 0.015 8.837 0 16-7.163 16-16s-7.163-16-16-16z"></path>
+    <path fill="#000" d="M16 3.714c-6.785 0-12.286 5.501-12.286 12.286v15.985h4.917v-15.972c0-4.057 3.288-7.347 7.345-7.347s7.345 3.29 7.345 7.347c0 4.057-3.288 7.345-7.345 7.345-1.483 0-2.864-0.441-4.019-1.197v5.28c0.774 0.476 2.54 0.812 4.612 0.829 6.521-0.297 11.717-5.677 11.717-12.271 0-6.785-5.501-12.286-12.286-12.286zM15.485 28.273c0.171 0.007 0.343 0.013 0.515 0.013 0.181 0 0.362-0.005 0.541-0.013h-1.056z"></path>
+</symbol>
+</svg>
+  
+{{ $cover := .HasShortcode "blocks/cover" }}
+<nav class="js-navbar-scroll navbar navbar-expand navbar-dark {{ if $cover}} td-navbar-cover {{ end }}flex-column flex-md-row td-navbar" style="background-image: url(https://i.imgur.com/usccIT8.png); background-size: auto 750%; background-position: center 57%; box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25);">
+        <a class="navbar-brand" href="{{ .Site.Home.RelPermalink }}" style="line-height: 18px;">
+            <span class="font-weight-bold">{{ .Site.Title }}</span>
+	</a>
+	<div class="td-navbar-nav-scroll ml-md-auto" id="main_navbar">
+		<ul class="navbar-nav mt-2 mt-lg-0">
+			{{ $p := . }}
+			{{ range .Site.Menus.main }}
+			<li class="nav-item mr-4 mb-2 mb-lg-0">
+				{{ $active := or ($p.IsMenuCurrent "main" .) ($p.HasMenuCurrent "main" .) }}
+				{{ with .Page }}
+				{{ $active = or $active ( $.IsDescendant .)  }}
+				{{ end }}
+				{{ $url := urls.Parse .URL }}
+				{{ $baseurl := urls.Parse $.Site.Params.Baseurl }}
+				<a class="nav-link{{if $active }} active{{end}}" href="{{ with .Page }}{{ .RelPermalink }}{{ else }}{{ .URL | relLangURL }}{{ end }}" {{ if ne $url.Host $baseurl.Host }}target="_blank" {{ end }}><span{{if $active }} class="active"{{end}}>{{ .Name | safeHTML }}</span></a>
+			</li>
+			{{ end }}
+			{{ if  .Site.Params.versions }}
+			<li class="nav-item dropdown d-none d-lg-block">
+				{{ partial "navbar-version-selector.html" . }}
+			</li>
+			{{ end }}
+			{{ if  (gt (len .Site.Home.Translations) 0) }}
+			<li class="nav-item dropdown d-none d-lg-block">
+				{{ partial "navbar-lang-selector.html" . }}
+			</li>
+			{{ end }}
+		</ul>
+	</div>
+	<div class="navbar-nav d-none d-lg-block">{{ partial "search-input.html" . }}</div>
+</nav>
